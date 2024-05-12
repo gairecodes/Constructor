@@ -1,0 +1,72 @@
+package Looping;
+import java.util.Scanner;
+
+public class PrimeorNot {
+  public static void main(String[] args) {
+	 Scanner sc = new Scanner(System.in);
+	 
+	 int num;
+	 
+	 
+	 System.out.println("enter the number you want to check:");
+	 num = sc.nextInt();
+	 
+	 
+	 if(num==1) {
+		 System.out.println("number"+num+"is  a prime number");
+		
+	 }
+	 
+	 int test = FlagTester(num);
+	 
+	 
+	 if (test == 0) {
+		 System.out.println("number"+num+"is not prime");
+	 }else {
+		 System.out.println("number"+num+"is prime");
+	 }
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	
+	 
+	 
+	 
+	 
+	 
+	sc.close(); 
+	
+	
+	
+}
+  
+  
+  public static int FlagTester(int num) {
+		
+		 for(int i = 2 ; i<num ; i++) {
+			 
+			 if (num % i==0) {   // 2 dekhi tyo number samma exactly divide gayo vane ie not prime
+				return 0;
+			 }
+			 
+			 else {
+				return 1;
+			 }
+		 }
+  
+}
+}
+
+
+
+
+
+	 
+	 
+
+

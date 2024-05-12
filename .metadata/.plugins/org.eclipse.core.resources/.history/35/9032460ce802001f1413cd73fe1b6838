@@ -1,0 +1,16 @@
+package corejava;
+
+public class ForEachLoop {
+  public static void main(String[] args) {
+	  
+	  String[] str= {"roshan","gaire","pandey"};
+	  
+		  for(String i:str) {   //purai array element ava i vanne string variable sanga xa
+			  System.out.println("array element is "+i);//i vanne string variable nai print garna ni milxa ie purai array
+			  
+			  
+			 
+		  }
+	  
+}
+}

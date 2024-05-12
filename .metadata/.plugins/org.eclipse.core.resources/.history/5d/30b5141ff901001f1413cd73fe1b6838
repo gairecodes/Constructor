@@ -1,0 +1,13 @@
+package corejava;
+
+public class StrFunPractice {
+/* 
+ stringwalavariable.length()
+ variable.toUpperCase()
+ variable.toLowerCase()
+ Varible.indexOf
+firstvar.concat(second var)
+ */
+	
+	string 
+}

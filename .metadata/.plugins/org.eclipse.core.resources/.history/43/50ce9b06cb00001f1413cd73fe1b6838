@@ -1,0 +1,13 @@
+package printingproject;
+
+public class Printgar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=59;
+		float b=40.33f;
+		System.out.println(a+b);
+
+	}
+
+}

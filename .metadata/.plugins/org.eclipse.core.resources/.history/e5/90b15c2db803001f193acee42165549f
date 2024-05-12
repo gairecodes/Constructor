@@ -1,0 +1,14 @@
+package conditionalstatements;
+
+public class ControlStatements {
+	
+	public static void main(String[] args) {
+		
+		int salary = 70000;
+		
+		salary = salary + 9000;
+		
+		System.out.println("total salary ="+salary);
+	}
+	
+}

@@ -1,0 +1,10 @@
+package corejava;
+
+public class PassingArgsInMain {
+	public static void main(String[] args) {
+		System.out.println("first array element is "+args[0]);
+	}
+
+}
+// run as run configuration garera garne ra 
+//arguments ma gayera string ie array of string dine jaslai main vanne function le linxa ra tei array ko first element print garne but note it its a array of string 

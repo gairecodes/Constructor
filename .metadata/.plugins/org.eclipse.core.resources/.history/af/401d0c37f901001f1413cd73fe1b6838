@@ -1,0 +1,17 @@
+package corejava;
+
+public class StrFunPractice {
+/* 
+ stringwalavariable.length()
+ variable.toUpperCase()
+ variable.toLowerCase()
+ Varible.indexOf
+firstvar.concat(second var)
+ */
+	public static void main(String[] args) {
+		
+		String name = "roshan is a killer";
+		System.out.println("upper cased string is "+name.toUpperCase());
+		System.out.println("index of g is "+name.indexOf(name));
+	}
+}

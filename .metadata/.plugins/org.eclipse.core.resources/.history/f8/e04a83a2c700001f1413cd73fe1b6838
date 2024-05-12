@@ -1,0 +1,10 @@
+package hahaha;
+
+public class printinghelloworld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.prinln("hello world");
+	}
+
+}

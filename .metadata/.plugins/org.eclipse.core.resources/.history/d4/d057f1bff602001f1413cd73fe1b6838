@@ -1,0 +1,11 @@
+package datatype;
+
+public class DataTypes {
+  /*
+   * 
+   * 
+   */
+	public static void main(String[] args) {
+		System.out.println("size of int is "+Int.SIZE+"min value is"+Int.MIN_VALUE+"max value is "+Int.MAX_VALUE);
+	}
+}

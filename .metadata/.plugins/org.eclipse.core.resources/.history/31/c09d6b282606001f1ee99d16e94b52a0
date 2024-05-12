@@ -1,0 +1,39 @@
+package Looping;
+import java.util.Scanner;
+public class RangePrimeCheck {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("enter the startingRange:");
+		int startingRange = sc.nextInt();
+		
+		System.out.println("enter the endingRange:");
+		int endingRange = sc.nextInt();
+		
+		
+		int test = primeTester(startingRange,endingRange);
+		
+	}
+	
+	
+	public static int  primeTester(int startingRange, int endingRange) {
+		int count =0;
+		int incrementer =0;
+		for(int i=startingRange; i<endingRange ; startingRange++) {
+			count++;
+		}
+		
+		for(int i=2 ; i<count ; i++) {
+			if((startingRange+incrementer) % i==0) {
+				incrementer ++;
+				return 0;
+				
+			}
+		}
+		return 1;
+		
+		
+	}
+
+}

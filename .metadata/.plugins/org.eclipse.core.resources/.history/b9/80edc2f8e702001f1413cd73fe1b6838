@@ -1,0 +1,13 @@
+package corejava;
+
+public class ForEachLoop {
+  public static void main(String[] args) {
+	  
+	  String[] str= {"roshan","gaire","pandey"};
+	  
+		  for(String i:str) {
+			  System.out.println("array element is "+str[i]);
+		  }
+	  
+}
+}

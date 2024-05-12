@@ -1,0 +1,46 @@
+package Looping;
+import java.util.Scanner;
+public class RangePrimeCheck {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("enter the startingRange:");
+		int startingRange = sc.nextInt();
+		
+		System.out.println("enter the endingRange:");
+		int endingRange = sc.nextInt();
+		
+//		int test = //
+				primeTester(startingRange, endingRange);
+		
+		
+		
+		
+		
+		
+	}
+		
+		public static void primeTester(int startingRange, int endingRange) {
+			int[] arr = new int[endingRange];
+			
+			arr[0] = startingRange;
+			arr[endingRange-1] = endingRange;
+			int count=0,actualCount;
+			
+			for (int i=0; i<endingRange-1; i++) {
+				arr[i+1] = startingRange+1;
+				count++;
+			}
+			actualCount = count+2;
+		    System.out.println("total numbers in this range is :"+actualCount);
+			
+			
+		}
+	
+	
+}
+	
+	
+		
+	

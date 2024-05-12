@@ -1,0 +1,30 @@
+package Looping;
+import java.util.Scanner;
+
+public class DoublePass {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("enter l ,b,h:");
+		int l = sc.nextInt();
+		int  b = sc.nextInt();
+		int h =sc.nextInt();
+		
+		int area = findArea(l,b);
+		
+		System.out.println("area is "+area);
+		
+		int volume = findVol( area, h);
+		
+		System.out.println("volume is "+volume);
+		
+	}
+	static int findArea(int a, int b) {
+		return a*b;
+	}
+	
+	static int findVol(int x,int y) {
+		return x*y;
+	}
+}

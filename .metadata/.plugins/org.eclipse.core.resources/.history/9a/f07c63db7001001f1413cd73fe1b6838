@@ -1,0 +1,15 @@
+package corejava;
+
+public class TypeConversion {
+	public static void main(String[] args) {
+		//byte short int long float double char boolean
+		short a = 39;
+		float b= 50.99;
+		
+		short a=b;
+		System.out.println("value of a after typeconversion is"+ a);
+		
+				
+	}
+
+}

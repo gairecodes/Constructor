@@ -1,0 +1,24 @@
+package corejava;
+import java.util.Scanner;
+public class DoYouWantToContinue {
+	
+	public static char str;
+	
+	public static void main(String[] args) {
+		//bsil float double char =2 bytes 
+		Scanner sc = new Scanner(System.in);
+		    
+		
+		do {
+			
+			System.out.println("enter any character from a to z to continue");
+			char str =sc.nextLine().charAt(0);
+		    if((str>= 'a' && str<= 'z') || (str>= 'A' && str<= 'Z')) {
+		    	System.out.println("successfully logged in");
+		    }
+			
+		}while(!((str>= 'a' && str<= 'z') || (str>= 'A' && str<= 'Z')));
+		sc.close();
+	}
+
+}

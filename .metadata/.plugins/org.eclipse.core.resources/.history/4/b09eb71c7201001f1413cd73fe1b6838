@@ -1,0 +1,18 @@
+package corejava;
+
+public class TypeConversionWidening {
+	public static void main(String[] args) {
+		
+		byte num1 = 59;
+		
+		float num2 ;
+		
+		num2=num1;
+		
+		System.out.println("sano thulo huda typeconverion implicitly hunxa: "+num2);
+		
+		
+		
+	}
+
+}

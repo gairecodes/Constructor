@@ -1,0 +1,30 @@
+package corejava;
+import java.util.Scanner;
+
+public class ForLoopingInJava {
+	
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		
+		System.out.println("enter the size of an array");
+		
+		int size = sc.nextInt();
+		
+		String[] str = new String[size];
+		
+		//taking input for the array
+			for(int i=0; i<size; i++) {
+				System.out.println("enter the "+(i+1)+" element:\n");
+				str[i]=sc.nextLine();
+			
+		     }
+			
+			
+			
+			//displaying the array elements
+			for(int i=0 ; i<size ; i++) {
+				System.out.println(i+1+"element is"+str[i]);
+			}
+	}
+    
+}

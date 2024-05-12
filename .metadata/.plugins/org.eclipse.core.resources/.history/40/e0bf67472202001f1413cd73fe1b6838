@@ -1,0 +1,25 @@
+package corejava;
+import java.util.Scanner;
+public class DoYouWantToContinue {
+	
+	public static int num;
+	
+	public static void main(String[] args) {
+		//bsil float double char =2 bytes 
+		Scanner sc = new Scanner(System.in);
+		    
+		
+		do {
+			
+			System.out.println("enter any num");
+			int num =sc.nextInt();
+		    if(num>=0) {
+		    	System.out.println("successfully logged in");
+		    }
+			
+		}while(num>=0);
+		System.out.println("exit");
+		sc.close();
+	}
+
+}
